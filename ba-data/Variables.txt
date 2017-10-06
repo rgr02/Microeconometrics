@@ -1,0 +1,90 @@
+Sonia Bhalotra and Cliff Attfield, "Intrahousehold Resource Allocation in
+Rural Pakistan: A Semiparametric Analysis", Journal of Applied Econometrics,
+Vol. 13, No. 5, 1998, pp. 463-480.
+
+There is a single data file, called ba-data.dat, which is zipped in the file
+ba-data.zip. The file is an ASCII file in DOS format. When unzipping it on a
+Unix system, use "unzip -a".
+
+Filesize: 4046901 (Unix format)
+          4183275 (DOS format)
+
+The file is organized as columns separated by spaces. The data are a cross
+section of households, and the columns are variables. The number of records
+is 136374. Min record length=7 and max=105.
+
+Number of observations=9741
+Number of variables=700
+
+Source of data: Household Income and Expenditure Survey, Government of 
+Pakistan.
+
+LIST OF VARIABLES (slash denotes end of line in the data file):
+
+hhcode fdsh lsize lpcexp lpcexpsq/
+lpcinc lpcincsq mksh adsh chsh/
+dp dn ds db dq1 dq2 dq3 dq4/
+dmorder dforder hhhlit hhslit/
+prpm01-prpm08/
+wprpm09 wprpm10-wprpm15 pmwork5-pmwork7/
+dprpm09 dprpm10-dprpm15 pmdept5-pmdept7/
+prpf01-prpf08/
+wprpf09 wprpf10-wprpf15 pfwork5-pfwork7/
+dprpf09 dprpf10-dprpf15 pfdept5-pfdept7/
+prpm01-prpm09/
+prpm10-prpm15 m5-m7/
+prpf01-prpf09/
+prpf10-prpf15 f5-f7.
+
+Variable definitions:
+
+hhcode   = household ID
+fdsh     = share of food expenditure in household budget
+lsize    = log of household size
+lpcexp   = log of per capita expenditure of household
+lpcexpsq = square of lpcexp
+lpcinc   = log of per capita income of household
+lpcincsq = square of lpcinc
+mksh     = share of milk expenditure in household budget
+chsh     = share of budget spent on "child goods"
+adsh     = share of budget spent on "adult goods"
+dp       = dummy variable that is 1 if province=Punjab
+dn       = dummy variable that is 1 if province=NWFP
+ds       = dummy variable that is 1 if province=Sind
+dq1      = dummy variable that is 1 if quarter=1
+dq2      = dummy variable that is 1 if quarter=1
+dq3      = dummy variable that is 1 if quarter=1
+dq4      = dummy variable that is 1 if quarter=1
+dmorder  = birth order dummy for males
+           (dmorder is defined as 1 if there exists a male child in the hh)
+dforder  = birth order dummy for females
+hhhlit   = literacy (0/1) of household head
+hhslit   = literacy (0/1) of household head's spouse
+
+prpm(i)  = number of males of age i as a proportion of total hh size.
+prpf(i)  = number of females of age i as a proportion of total hh size.
+wprpm(i) = number of working males of age i as propn. of hhsize
+wprpf(i) = number of working females of age i as propn of hhsize
+dprpm(i) = number of dependent males of age i as a propn of hhsize
+dprpf(i) = number of dependent females of age i as a propn of hhsize
+
+(NB: wprpm(i)+dprpm(i)=prpm(i), ie propn working males + propn dependent
+males = propn males.)
+
+pmwork(i) = number of working males of age-group i as a proportion of hhsize.
+pfwork(i) = number of working females of age-group i as a proportion of 
+            hhsize. 
+pmdept(i) = number of dependent males of age-group i as a proportion of hhsize.
+pfdept(i) = number of dependent females of age-group i as a proportion of 
+            hhsize. 
+
+Sonia R. Bhalotra
+Department of Economics
+University of Bristol
+8 Woodland Road
+Bristol BS8 1TN
+U.K.
+
+E-mail: s.bhalotra@bristol.ac.uk
+Telephone: +44 117 928 8418 
+Fax: +44 117 928 8577
